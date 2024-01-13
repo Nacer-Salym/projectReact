@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .bodye{
+    background-color: #03071e;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+} 
+.wraper{
+    background-color: #03071e;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 50px #0ef ;
+}
+.sing-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.input-groop{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+}
+.input-groop label{
+    position: absolute;
+    top: 50%;
+    left:5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .4s;
+
+}
+.input-groop input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.input-groop input:focus~label,.input-groop input:active~label{
+    top: -5px;
+} 
+.remumber{
+    margin: -5px 0 15px 5px;
+}
+.remumber label{
+    font-size: 16px;
+    color: white;
+    margin-left: 2px;
+}
+.button{
+    width: 100%;
+    text-decoration: none;
+    background:rgba(39, 219, 195, 0.945);
+    font-size: 16px;
+    cursor: pointer;
+    color: #03071e;
+    height: 40px;
+     box-shadow: 0 0 10 #ffba08; 
+    border: none;
+    font-weight: bold;
+    
+
+    border-radius: 30px;
+    outline: none;
+   
+} 
+.sing-up{
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+}
+.sing-up p{
+    color: white;
+}
+.sing-up p a{
+    color: #0ef;
+    font-size: bold;
+    text-decoration: none;
+
+}
+.sing-up p a:hover{
+    text-decoration: underline;
+}
+.mesg{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+body{
+  background-color:   #00171f;
+
+}
+.table{
+    color: #94d2bd;
+    margin-top: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+#frm{
+    margin-top: 40px;
+    padding: 20px;
+}
+#Id,#usernam,#password,#email,#adress{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 450px;
+    color: #a7c957;
+    border: solid 2px #a7c957;
+    background-color: #00171f;
+}
+.mod{
+    margin-top: 5px;
+    width: 100px;
+    color:#a7c957 ;
+    border: solid 2px #a7c957;
+
+}

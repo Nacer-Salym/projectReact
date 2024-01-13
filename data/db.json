@@ -1,0 +1,48 @@
+{
+  "client": [
+    {
+      "id": "E1",
+      "usernam": "salym",
+      "password": "16610",
+      "email": "nacer@gmail.com",
+      "adress": "FEZ"
+    },
+    {
+      "id": "E2",
+      "usernam": "MOHAMMED",
+      "password": 16610,
+      "email": "mohammed@gmail.com",
+      "adress": "MARAKECH"
+    },
+    {
+      "usernam": "fffffff",
+      "password": "nnnnnnn",
+      "email": "marouane@gmail.com",
+      "adress": "vilage",
+      "id": "E3"
+    }
+  ],
+  "produit": [
+    {
+      "id": "E1",
+      "des": "Bike Safety Gear",
+      "kategori": "smaal",
+      "prix": 100,
+      "sorce": "Bike Safety Gear.jpeg"
+    },
+    {
+      "id": "E2",
+      "des": "Cycling",
+      "kategori": "begin",
+      "prix": 200,
+      "sorce": "Cycling .jpeg"
+    },
+    {
+      "id": "E3",
+      "des": "ElectriBikes",
+      "kategori": "xl",
+      "prix": 300,
+      "sorce": "ElectriBikes.jpeg"
+    }
+  ]
+}

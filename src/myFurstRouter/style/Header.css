@@ -1,0 +1,40 @@
+
+
+header{
+    display: flex;
+    color:#fff8f0 ;
+    padding: 10px;
+    /* margin: 0; */
+    align-items: center;
+    width: 100%;
+    background-color: #1e1e24;
+    box-shadow:  5px 15px 40px  white;
+    position: relative;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+ul li {
+    padding-left: 30px ;
+    /* padding: 13px; */
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff8f0;
+    transition: .3s;
+}
+ul li a:hover{
+
+    color: #94d2bd;
+}
+.logOut{
+ right: 10px;
+  position: absolute;
+
+} 
